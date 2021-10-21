@@ -7,34 +7,43 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import java.io.IOException;
-
 
 public class MainActivity extends AppCompatActivity {
-private Button mb1,mb2,mb3,stopbutton,pausebutton,pausebutton2,pausebutton3;
+private Button musicbutton1,musicbutton2,musicbutton3,musicbutton4,musicbutton5,musicbutton6,musicbutton7,musicbutton8,musicbutton9,musicbutton10;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        MediaPlayer mp1 = MediaPlayer.create(this, R.raw.mei);
-        MediaPlayer mp2 = MediaPlayer.create(this, R.raw.spacedout);
-        MediaPlayer mp3 = MediaPlayer.create(this, R.raw.runningintherooftop);
+        MediaPlayer mp1 = MediaPlayer.create(this, R.raw.turmpetc);
+        MediaPlayer mp2 = MediaPlayer.create(this, R.raw.turmpetd);
+        MediaPlayer mp3 = MediaPlayer.create(this, R.raw.turmpete);
+        MediaPlayer mp4 = MediaPlayer.create(this, R.raw.turmpetf);
+        MediaPlayer mp5 = MediaPlayer.create(this, R.raw.turmpetg);
+        MediaPlayer mp6 = MediaPlayer.create(this, R.raw.turmpeta);
+        MediaPlayer mp7 = MediaPlayer.create(this, R.raw.turmpetb);
+        MediaPlayer mp8 = MediaPlayer.create(this, R.raw.turmpet0c);
+        MediaPlayer mp9 = MediaPlayer.create(this, R.raw.turmpet0d);
+        MediaPlayer mp10 = MediaPlayer.create(this, R.raw.turmpet0e);
 
 
 
-        mb1 =(Button) findViewById(R.id.musicbutton1);
-        mb2 =(Button) findViewById(R.id.musicbutton2);
-        mb3 =(Button) findViewById(R.id.musicbutton3);
+        musicbutton1 =(Button) findViewById(R.id.musicbutton1);
+        musicbutton2 =(Button) findViewById(R.id.musicbutton2);
+        musicbutton3 =(Button) findViewById(R.id.musicbutton3);
+        musicbutton4 =(Button) findViewById(R.id.musicbutton4);
+        musicbutton5 =(Button) findViewById(R.id.musicbutton5);
+        musicbutton6 =(Button) findViewById(R.id.musicbutton6);
+        musicbutton7 =(Button) findViewById(R.id.musicbutton7);
+        musicbutton8 =(Button) findViewById(R.id.musicbutton8);
+        musicbutton9 =(Button) findViewById(R.id.musicbutton9);
+        musicbutton10 =(Button) findViewById(R.id.musicbutton10);
 
-        stopbutton =(Button) findViewById(R.id.stopbutton);
-        pausebutton =(Button) findViewById(R.id.pausebutton);
-        pausebutton2 =(Button) findViewById(R.id.pausebutton2);
-        pausebutton3 =(Button) findViewById(R.id.pausebutton3);
 
 
-        mb1.setOnClickListener(new View.OnClickListener() {
+
+        musicbutton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -42,7 +51,7 @@ private Button mb1,mb2,mb3,stopbutton,pausebutton,pausebutton2,pausebutton3;
             }
         });
 
-        mb2.setOnClickListener(new View.OnClickListener() {
+        musicbutton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -50,7 +59,7 @@ private Button mb1,mb2,mb3,stopbutton,pausebutton,pausebutton2,pausebutton3;
             }
         });
 
-        mb3.setOnClickListener(new View.OnClickListener() {
+        musicbutton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -58,55 +67,65 @@ private Button mb1,mb2,mb3,stopbutton,pausebutton,pausebutton2,pausebutton3;
             }
         });
 
-
-
-        pausebutton.setOnClickListener(new View.OnClickListener() {
+        musicbutton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mp1.pause();
 
-
-
+                mp4.start();
             }
         });
 
-        pausebutton2.setOnClickListener(new View.OnClickListener() {
+        musicbutton5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mp2.pause();
 
-
-
+                mp5.start();
             }
         });
 
-        pausebutton3.setOnClickListener(new View.OnClickListener() {
+        musicbutton6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mp3.pause();
 
-
-
+                mp6.start();
             }
         });
 
-        stopbutton.setOnClickListener(new View.OnClickListener() {
+        musicbutton7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (mp1 != null){
-                    mp1.stop();
-                    mp1.release();
-                }
 
-
-
-
-
-
-
-
+                mp7.start();
             }
         });
+
+        musicbutton8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                mp8.start();
+            }
+        });
+
+        musicbutton9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                mp9.start();
+            }
+        });
+
+        musicbutton10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                mp10.start();
+            }
+        });
+
+
+
+
 
 
 

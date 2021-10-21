@@ -8,99 +8,123 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/stopbutton"
-        android:layout_width="344dp"
-        android:layout_height="88dp"
-        android:background="#0E0D0D"
-        android:text="STOP"
+        android:id="@+id/musicbutton10"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:text="@string/_0e"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.914" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.065"
-        app:srcCompat="@drawable/musichead" />
+        app:layout_constraintVertical_bias="0.956" />
 
     <Button
-        android:id="@+id/pausebutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="pause"
+        android:id="@+id/musicbutton9"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="9D#"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.708"
+        app:layout_constraintHorizontal_bias="0.936"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.407" />
+        app:layout_constraintVertical_bias="0.17" />
 
     <Button
-        android:id="@+id/pausebutton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="pause"
+        android:id="@+id/musicbutton8"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="8C#"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.708"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.17" />
 
     <Button
-        android:id="@+id/pausebutton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="pause"
+        android:id="@+id/musicbutton7"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="7B"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.708"
+        app:layout_constraintHorizontal_bias="0.053"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.604" />
+        app:layout_constraintVertical_bias="0.17" />
+
+    <Button
+        android:id="@+id/musicbutton6"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="6A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452" />
+
+    <Button
+        android:id="@+id/musicbutton4"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="4F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452" />
+
+    <Button
+        android:id="@+id/musicbutton5"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="5G"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452" />
 
     <Button
         android:id="@+id/musicbutton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="music3"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="3E"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintHorizontal_bias="0.936"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.604" />
-
-    <Button
-        android:id="@+id/musicbutton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="music2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.283"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.502" />
+        app:layout_constraintVertical_bias="0.713" />
 
     <Button
         android:id="@+id/musicbutton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="music1"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="1C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintHorizontal_bias="0.053"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.407" />
+        app:layout_constraintVertical_bias="0.713" />
+
+    <Button
+        android:id="@+id/musicbutton2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="2D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.713" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
